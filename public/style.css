@@ -305,6 +305,9 @@ a{color:var(--amber);}
   position:fixed; inset:0; background:rgba(0,0,0,.65); backdrop-filter:blur(3px);
   display:flex; align-items:center; justify-content:center; z-index:100; padding:1em;
 }
+.modal-backdrop[hidden]{
+  display:none;
+}
 .modal{
   background:var(--panel); border:1px solid var(--border); border-radius:14px;
   padding:2em; width:100%; max-width:400px; position:relative;
